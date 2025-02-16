@@ -1,0 +1,15 @@
+/* Tienda.css */
+
+/* Contenedor principal de la tienda */
+.tienda-container {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo para la lista de pizzas */
+.pizza-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas de igual tamaño */
+    gap: 20px; /* Espacio entre las tarjetas */
+    padding: 20px;
+}

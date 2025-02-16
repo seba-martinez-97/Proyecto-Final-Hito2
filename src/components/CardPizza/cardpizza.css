@@ -1,0 +1,61 @@
+/* Estilo para la tarjeta */
+.card {
+    width: 100%;
+    /* O un ancho fijo, como '300px' */
+    height: 100%;
+    max-width: 300px;
+    /* Máximo ancho deseado */
+    margin: 10px auto;
+    /* Centrar tarjetas y espacio entre ellas */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Estilo para la imagen de la tarjeta */
+.card-img-top {
+    width: 100% !important;
+    height: 150px !important;
+    /* Ajusta la altura según sea necesario */
+    object-fit: cover;
+    /* Asegura que la imagen cubra el área de manera apropiada */
+}
+
+/* Estilo para el cuerpo de la tarjeta */
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+/* Asegura que los botones se alineen correctamente */
+.card .btn {
+    margin-top: 10px;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    color: #0c0c0c;
+}
+
+/*
+.favorite-button {
+    background-color: rgb(68, 0, 255);
+    border: 1px solid #0e0d0d;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.favorite-button.favorited {
+    background-color: #ff0000;
+    border-color: #ff0000;
+}
+
+.favorite-button:hover {
+    background-color: rgb(68, 0, 255);
+}*/

@@ -1,0 +1,23 @@
+.favoritos-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .favorito-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .favorito-imagen {
+    width: 100%;
+    height: auto;
+  }
+  
+  .favorito-info {
+    padding: 10px;
+  }
